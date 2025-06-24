@@ -1,5 +1,7 @@
 *
 !.gitignore
-!userprefs.conf
-!hypridle.conf
+!hypr
+!hypr/userprefs.conf
+!hypr/hypridle.conf
+!hypr/keybindings.conf
 !readme.md
