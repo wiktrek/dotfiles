@@ -1,7 +1,12 @@
 *
-!.gitignore
+
+!.zshrc
+
 !hypr
 !hypr/userprefs.conf
 !hypr/hypridle.conf
 !hypr/keybindings.conf
+
+
+!.gitignore
 !readme.md
