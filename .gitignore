@@ -2,6 +2,10 @@
 
 !.zshrc
 
+!waybar
+!waybar/layouts
+!waybar/layouts/my_config.jsonc
+
 !hypr
 !hypr/userprefs.conf
 !hypr/hypridle.conf
