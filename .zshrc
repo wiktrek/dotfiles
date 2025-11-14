@@ -29,3 +29,9 @@ plugins=(
     "zsh-syntax-highlighting"
     "zsh-completions" 
 )
+
+
+# bun
+# add to ~/.zshrc
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
