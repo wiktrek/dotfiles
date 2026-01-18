@@ -10,6 +10,6 @@
 !hypr/hypridle.conf
 !hypr/keybindings.conf
 !hypr/windowrules.conf
-
+!kitty/kitty.conf
 !.gitignore
 !readme.md
