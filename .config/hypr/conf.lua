@@ -1,7 +1,7 @@
 hl.config({
     general = {
-        gaps_in  = 5,
-        gaps_out = 20,
+        gaps_in  = 2,
+        gaps_out = 5,
 
         border_size = 2,
 
@@ -48,5 +48,22 @@ hl.config({
 
     animations = {
         enabled = true,
+    },
+})
+hl.config({
+    input = {
+        kb_layout  = "pl",
+        kb_variant = "",
+        kb_model   = "",
+        kb_options = "",
+        kb_rules   = "",
+
+        follow_mouse = 1,
+
+        sensitivity = -0.5, -- -1.0 - 1.0, 0 means no modification.
+
+        touchpad = {
+            natural_scroll = false,
+        },
     },
 })

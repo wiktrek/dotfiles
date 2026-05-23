@@ -3,7 +3,7 @@ local fileManager = "dolphin"
 local menu = "hyprlauncher"
 local browser = "zen-browser"
 local mainMod = "SUPER"
-
+local editor = "code"
 -- exit hyprland bind
 -- hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
 
@@ -14,6 +14,7 @@ hl.bind(mainMod .. " + A", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + F", hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
 
+hl.bind(mainMod .. " + C", hl.dsp.exec_cmd(editor))
 -- WINDOW
 
 hl.bind(mainMod .. " + Q", hl.dsp.window.close()) -- close window
@@ -28,6 +29,9 @@ for i = 1, 10 do
     hl.bind(mainMod .. " + " .. key,             hl.dsp.focus({ workspace = i}))
     hl.bind(mainMod .. " + SHIFT + " .. key,     hl.dsp.window.move({ workspace = i }))
 end
+hl.bind("ALT + RETURN", hl.dsp.window.fullscreen({ mode="fullscreen"}))
+hl.bind(mainMod .. " + CTRL + right", hl.dsp.focus({ workspace = "r+1" }))
+hl.bind(mainMod .. " + CTRL + left", hl.dsp.focus({ workspace = "r-1" }))
 
 -- Example special workspace (scratchpad)
 hl.bind(mainMod .. " + S",         hl.dsp.workspace.toggle_special("magic"))
