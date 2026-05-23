@@ -1,3 +1,3 @@
-# Most copied from [HyDE](https://github.com/HyDE-Project/HyDE)
+# My dotfiles
 
 use stow
