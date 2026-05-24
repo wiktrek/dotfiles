@@ -1,9 +1,9 @@
 {
   "layer": "top",
-  "position": "top",
-  "height": 34,
+  "position": "bottom",
+  "height": 16,
   "spacing": 10,
-  "margin-top": 8,
+  "margin-top": 0,
   "margin-left": 12,
   "margin-right": 12,
 

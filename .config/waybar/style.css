@@ -23,7 +23,7 @@ window#waybar {
 #cpu,
 #memory,
 #battery {
-  margin: 6px 0;
+  margin: 3px 0 6px;
   padding: 0 12px;
   background: rgba(30, 30, 46, 0.88);
   color: #cdd6f4;
@@ -37,7 +37,7 @@ window#waybar {
 }
 
 #workspaces button {
-  margin: 6px 3px;
+  margin: 3px 3px 6px;
   padding: 0 10px;
   color: #a6adc8;
   background: transparent;
